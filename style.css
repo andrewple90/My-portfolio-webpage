@@ -2,13 +2,16 @@
     text-align: center;
 }
 
+/*I hamburgered the header and footer with a darkbackground that way it encapsulates all the information within and hopefully limits the amount of eyestrain with the info*/
+
+
 .dark-background {
-    background-color: #5c5858;
+    background-color: #5c5858; /*background is a dark grayish*/
   color: white;
 }
 
 .light-background {
-    background-color: #c8d2e0;
+    background-color: #c8d2e0; /*background is a light bluish-gray*/
     color: #1E1E1E;
   }
     
@@ -22,6 +25,7 @@
     border-radius: 4px;
     padding: 5px;
     width: 400px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -43,3 +47,17 @@
     font-size: 14px;
     color: darkslategrey;
   }
+
+  .round {
+    border-radius: 10px; /*rounded corners for the header, main, and footer*/
+  }
+
+  a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  a:link {color: green; }
+  a:hover {color: orange; }
+  a:visited {color: blue}
+  a:active {color: red}
