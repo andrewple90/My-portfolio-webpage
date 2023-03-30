@@ -1,63 +1,70 @@
 .text-centered {
-    text-align: center;
+  text-align: center;
 }
 
 /*I hamburgered the header and footer with a darkbackground that way it encapsulates all the information within and hopefully limits the amount of eyestrain with the info*/
 
-
 .dark-background {
-    background-color: #5c5858; /*background is a dark grayish*/
+  background-color: #5c5858; /*background is a dark grayish*/
   color: white;
 }
 
 .light-background {
-    background-color: #c8d2e0; /*background is a light bluish-gray*/
-    color: #1E1E1E;
-  }
-    
-  .wrapper {
-    width: 600px;
-    margin: auto;
-  }
+  background-color: #e4ebf5; /*background is a light bluish-gray*/
+  color: #1e1e1e;
+}
 
-  img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 400px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
 
-  .container {
-     margin: auto;
-     width: 500px;
-  }
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
-  p {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      color: darkslategrey;
-  }
+.container {
+  margin: auto;
+  width: 500px;
+}
 
-  ul {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: darkslategrey;
-  }
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: darkslategrey;
+}
 
-  .round {
-    border-radius: 10px; /*rounded corners for the header, main, and footer*/
-  }
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: darkslategrey;
+}
 
-  a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-  }
+.round {
+  border-radius: 10px; /*rounded corners for the header, main, and footer*/
+}
 
-  a:link {color: green; }
-  a:hover {color: orange; }
-  a:visited {color: blue}
-  a:active {color: red}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+a:link {
+  color: green;
+}
+a:hover {
+  color: orange;
+}
+a:visited {
+  color: blue;
+}
+a:active {
+  color: red;
+}
